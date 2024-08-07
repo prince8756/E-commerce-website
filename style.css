@@ -1,0 +1,58 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.img-fluid {
+    height: 5vh;
+    width: 10vh;
+}
+.nav-item .nav-link{
+    font-size: 1.25rem ;
+    padding: 0.5rem 1rem;
+    text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-item .nav-link:hover {
+    color: red;
+   
+}
+
+.navbar {
+    box-shadow: 0 0.125rem 0.675rem rgba(0, 0, 0, 0.05);
+}
+
+#header.navbar-toggler-icon{
+    width: unset;
+    height: unset;
+}
+#header.navbar-toggler{
+    box-shadow: none
+}
+.home .home-banner-1,
+.home .home-banner-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    min-height: 630px;
+    position: relative;
+}
+.home .home-banner-1{
+    background-image: url(./img/card1.jpg);
+background-size: cover;
+}
+.home .home-banner-2{
+    background-image: url(./img/card3.jpeg);
+}
+.home-banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%,-50%);
+}
+.home-banner-text h1{
+    font-size: 6rem;
+}
