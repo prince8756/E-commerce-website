@@ -1,0 +1,50 @@
+@media (max-width:1030px){
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 65% center;
+        min-height: 650px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-80%,-50%);
+    }
+}
+@media(max-width:550px){
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 65% center;
+        min-height: 650px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-80%,-50%);
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 2rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+    }
+}
+@media(max-width:480px){
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 60% center;
+        min-height: 550px;
+    }
+
+.home .home-banner .home-banner-text{
+    text-align:start;
+    transform: translate(-80%,0%,0%,20%);
+}
+.home .home-banner .home-banner-text h1{
+    font-size: 2rem;
+}
+.home .home-banner .home-banner-text h2{
+    font-size: 1rem;
+}
+/* .home .home-banner .home-banner-text .btn-danger{
+    padding: 0.5rem 1.5rem;
+}
+.home .slider-icon{
+    font-size: 0.25rem;
+} */
+}
