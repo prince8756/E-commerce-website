@@ -5,6 +5,9 @@
 
 
 
+
+
+
 .img-fluid {
     height: 5vh;
     width: 10vh;
@@ -75,4 +78,16 @@
     font-size: 3rem;
     font-weight: 600;
     color: red;
+}
+.brands{
+    padding: 13px 14%; 
+    color: white;
+    background-color: black;
+}
+.main-brands{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 }
